@@ -1,14 +1,32 @@
-# flutter_web_video_player
+# Flutter web video player
+[![pub package](https://img.shields.io/badge/Pub-v0.0.1-red)](https://pub.dev/packages/flutter_web_video_player)
 
-A new Flutter package.
+A video player package for Flutter web.
 
-## Getting Started
+## Usage example
+![](https://img.shields.io/badge/Pub-v0.0.1-red)
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+``` dart 
+class App extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Material(
+        child: Center(
+          child: Container(
+            padding: EdgeInsets.all(8),
+            child: WebVideoPlayer(
+              src: 'https://www.sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4',
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+```
+##### Issues and feedback 
+Please file issues to send feedback or report a bug. Thank you!
+

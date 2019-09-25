@@ -12,7 +12,7 @@ class App extends StatelessWidget {
           child: Container(
             padding: EdgeInsets.all(8),
             child: WebVideoPlayer(
-              src: 'https://www.sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4',
+              src: 'https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4',
             ),
           ),
         ),

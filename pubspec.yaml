@@ -1,8 +1,8 @@
 name: flutter_web_video_player
-description: A new Flutter package.
-version: 0.0.1
-author: Alvaro Vasoncelos
-homepage:
+description: A package designed for video playback on web flutter using html5.
+version: 1.0.0+1
+author: Alvaro Vasoncelos <alvaro@flutterando.com.br>
+homepage: https://github.com/AlvaroVasconcelos/flutter_web_video_player
 
 environment:
   sdk: ">=2.5.0 <3.0.0"

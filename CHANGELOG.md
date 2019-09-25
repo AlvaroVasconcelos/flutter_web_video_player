@@ -1,3 +1,8 @@
-## [0.0.1] - TODO: Add release date.
+## [1.0.0+1] - Add guide.
 
-* TODO: Describe initial release.
+* add example.
+* add README.md.
+
+## [0.0.1] - Upload project
+
+* TODO: Upload files.
